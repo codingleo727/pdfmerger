@@ -1,11 +1,21 @@
-# pdfmerger
-9/28/2023  
-A pdf automation script that allows you to merge pdfs.  
-The program uses the fitz (PyMuPDF), tkinter, ttk, re, and os module of python:
-- fitz is used to merge the pdfs
-- tkinter and ttk is used for ui
-- re is used for displaying of files
-- os is used for locating the computer's download folder
+# PDF Merger GUI
 
-The merged file is automatically outputted to the download folder of the computer.  
-If you have any questions or suggestions, please feel free to email leowei.tx2@gmail.com!
+A lightweight desktop automation tool built with Python that streamlines the process of merging multiple PDF documents into a single file. Designed for simplicity and efficiency.
+
+## Features
+* **User-Friendly GUI:** Built with `tkinter` and `ttk` for a native OS feel.
+* **Automated Output:** Automatically detects the system's `Downloads` folder for saving files.
+* **Efficient Processing:** Uses `PyMuPDF` (fitz) for fast PDF manipulation.
+* **Regex Integration:** Utilizes `re` for robust file name parsing and display.
+
+## Technologies Used
+* **Language:** Python 3
+* **GUI:** Tkinter, TTK
+* **PDF Engine:** PyMuPDF (fitz)
+* **System Operations:** os, re
+
+## How to Run
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/codingleo727/pdfmerger.git](https://github.com/codingleo727/pdfmerger.git)
+2. Run pdfmerger.py
