@@ -18,4 +18,4 @@ A lightweight desktop automation tool built with Python that streamlines the pro
 1. **Clone the repository**
    ```bash
    git clone [https://github.com/codingleo727/pdfmerger.git](https://github.com/codingleo727/pdfmerger.git)
-2. Run pdfmerger.py
+2. **Run pdfmerger.py**
